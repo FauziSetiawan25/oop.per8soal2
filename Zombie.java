@@ -1,5 +1,3 @@
-package pertemuan8.soal2;
-
 public class Zombie extends Entity{
     enum type{
         MEELE,
