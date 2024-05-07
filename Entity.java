@@ -1,5 +1,3 @@
-package pertemuan8.soal2;
-
 public class Entity {
     private int level;
 
