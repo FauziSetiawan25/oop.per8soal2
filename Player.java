@@ -1,5 +1,3 @@
-package pertemuan8.soal2;
-
 public class Player extends Entity{
     private String nama;
     public String getNama() {
@@ -40,8 +38,6 @@ public class Player extends Entity{
         }else {
             System.out.println("# PLAYER SUDAH MATI");
         }
-
-
     }
     public void attack(Zombie zombie){
         if(getHp() > 0){
@@ -53,7 +49,5 @@ public class Player extends Entity{
         }else {
             System.out.println("# PLAYER SUDAH MATI");
         }
-
     }
-
 }
